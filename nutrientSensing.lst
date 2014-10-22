@@ -1,0 +1,21 @@
+eeschema (2012-apr-16-27)-stable  >> Creation date: vie 14 mar 2014 21:11:32 CET
+
+#Cmp ( order = Reference )
+| EC1        ATLAS_EC    
+| J1         RJ45        
+| P1         BNC         
+| P2         BNC         
+| PH1        ATLAS_PH    
+| U1         HCSR04      
+#End Cmp
+
+#Cmp ( order = Value )
+| ATLAS_EC     EC1       
+| ATLAS_PH     PH1       
+| BNC          P1        
+| BNC          P2        
+| HCSR04       U1        
+| RJ45         J1        
+#End Cmp
+
+#End List

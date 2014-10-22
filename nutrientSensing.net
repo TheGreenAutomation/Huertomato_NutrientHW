@@ -1,0 +1,88 @@
+# EESchema Netlist Version 1.1 created  mié 05 mar 2014 16:56:07 CET
+(
+ ( /530E2A65 $noname  J1 RJ45 {Lib=RJ45}
+  (    1 VCC )
+  (    2 N-000011 )
+  (    3 GND )
+  (    4 N-000012 )
+  (    5 N-000006 )
+  (    6 N-000009 )
+  (    7 N-000004 )
+  (    8 N-000003 )
+  (    9 ? )
+ )
+ ( /530E2A5A $noname  U1 HCSR04 {Lib=HCSR04}
+  (    1 VCC )
+  (    2 N-000012 )
+  (    3 N-000011 )
+  (    4 GND )
+ )
+ ( /530E2A4A $noname  PH1 ATLAS_PH {Lib=ATLAS_PH}
+  (    1 VCC )
+  (    2 N-000010 )
+  (    3 N-000013 )
+  (    4 GND )
+  (    5 N-000009 )
+  (    6 N-000003 )
+ )
+ ( /530E2A41 $noname  EC1 ATLAS_EC {Lib=ATLAS_EC}
+  (    1 VCC )
+  (    2 N-000008 )
+  (    3 N-000007 )
+  (    4 GND )
+  (    5 N-000004 )
+  (    6 N-000006 )
+ )
+ ( /530E2A37 $noname  P1 BNC {Lib=BNC}
+  (    1 N-000008 )
+  (    2 N-000007 )
+ )
+ ( /530E2A34 $noname  P2 BNC {Lib=BNC}
+  (    1 N-000010 )
+  (    2 N-000013 )
+ )
+)
+*
+{ Pin List by Nets
+Net 1 "VCC" "VCC"
+ PH1 1
+ EC1 1
+ J1 1
+ U1 1
+Net 3 "" ""
+ J1 8
+ PH1 6
+Net 4 "" ""
+ J1 7
+ EC1 5
+Net 5 "GND" "GND"
+ J1 3
+ EC1 4
+ U1 4
+ PH1 4
+Net 6 "" ""
+ EC1 6
+ J1 5
+Net 7 "" ""
+ P1 2
+ EC1 3
+Net 8 "" ""
+ P1 1
+ EC1 2
+Net 9 "" ""
+ J1 6
+ PH1 5
+Net 10 "" ""
+ P2 1
+ PH1 2
+Net 11 "" ""
+ J1 2
+ U1 3
+Net 12 "" ""
+ J1 4
+ U1 2
+Net 13 "" ""
+ PH1 3
+ P2 2
+}
+#End

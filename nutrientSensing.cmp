@@ -1,0 +1,45 @@
+Cmp-Mod V01 Created by CvPcb (2012-apr-16-27)-stable date = mié 05 mar 2014 16:55:53 CET
+
+BeginCmp
+TimeStamp = /530E2A41;
+Reference = EC1;
+ValeurCmp = ATLAS_EC;
+IdModule  = ECmod;
+EndCmp
+
+BeginCmp
+TimeStamp = /530E2A65;
+Reference = J1;
+ValeurCmp = RJ45;
+IdModule  = RJ45;
+EndCmp
+
+BeginCmp
+TimeStamp = /530E2A37;
+Reference = P1;
+ValeurCmp = BNC;
+IdModule  = BNC_90;
+EndCmp
+
+BeginCmp
+TimeStamp = /530E2A34;
+Reference = P2;
+ValeurCmp = BNC;
+IdModule  = BNC_90;
+EndCmp
+
+BeginCmp
+TimeStamp = /530E2A4A;
+Reference = PH1;
+ValeurCmp = ATLAS_PH;
+IdModule  = PHmod;
+EndCmp
+
+BeginCmp
+TimeStamp = /530E2A5A;
+Reference = U1;
+ValeurCmp = HCSR04;
+IdModule  = PIN_ARRAY_4x1;
+EndCmp
+
+EndListe
